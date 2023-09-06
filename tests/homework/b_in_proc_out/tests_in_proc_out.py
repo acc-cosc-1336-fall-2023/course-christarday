@@ -18,9 +18,8 @@ class Test_Config(unittest.TestCase):
         self.assertEqual(2, get_number(2))
     
     def test_multiply_numbers_1(self):
-        def multiply_numbers(num1, num2):
-            return num1 * num2
+        self.assertEqual(25, multiply_numbers(5, 5))
 
-        result = multiply_numbers(5, 5)
-
-        self.assertEqual(25, result)
+    def test_multiply_numbers_2(self):
+        self.assertEqual(100, multiply_numbers(10, 10))   
+    

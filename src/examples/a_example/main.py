@@ -1,9 +1,5 @@
-import devprocess
+import output
 
-result = devprocess.add_numbers(5, 5)
-
+result = output.multiply(6, 6)
 print(result)
-
-result = 5
-result = 10.25
 
