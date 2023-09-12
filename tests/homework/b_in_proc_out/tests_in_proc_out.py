@@ -17,9 +17,7 @@ class Test_Config(unittest.TestCase):
         #test that the function get_number returns 2
         self.assertEqual(2, get_number(2))
     
-    def test_multiply_numbers_1(self):
+    def test_multiply_numbers(self):
         self.assertEqual(25, multiply_numbers(5, 5))
-
-    def test_multiply_numbers_2(self):
         self.assertEqual(100, multiply_numbers(10, 10))   
     
