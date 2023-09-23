@@ -27,3 +27,11 @@ def get_faculty_rating(ratio):
     
     return result 
 # print(get_faculty_rating(1.9))
+def sum_odd_number(num): 
+    total = 0 
+    i = 1 
+    while i <= num: 
+        # check if )i) is odd 
+        if i % 2!= 0: 
+            total += i # add odd number total 
+        i += 1 # go to next number 

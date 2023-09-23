@@ -1,6 +1,6 @@
-import unittest
-from src.homework.c_decisions.decisions import get_options_ratio
-from src.homework.c_decisions.decisions import get_faculty_rating
+ #import unittest
+ #from src.homework.c_decisions.decisions import get_options_ratio
+#from src.homework.c_decisions.decisions import get_faculty_rating
 
 
 class Test_Config(unittest.TestCase):
@@ -15,10 +15,3 @@ class Test_Config(unittest.TestCase):
         self.assertEqual(get_faculty_rating(.66), "Needs Improvement")
         self.assertEqual(get_faculty_rating(.45), "Unacceptable")
         
-                         
-   
-    
-
-
-    
-
