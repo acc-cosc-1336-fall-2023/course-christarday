@@ -96,3 +96,48 @@ def while_validate_user_input():
 
 
 
+
+
+
+
+
+
+
+
+
+
+def nested_for_loop(row, col):
+
+    for i in range(row):
+        print("i:" , i , "outer loop")
+
+        print("inner loop complete")
+
+
+
+
+def for_multiplication_table(row, col):
+
+    for i in range(1, row + 1):
+
+        for j in range(1, col + 1):
+            print(str(i*j).rjust(3," "), end = " ")
+
+        print(" ")
+
+    def while_multiplication_table(row, col):
+
+        i = 0
+
+        while i < row:
+            j = 0
+            
+            while j < col: 
+                product = (i + 1) * (j + 1) 
+                print(str(product).rjust(3, " "), end= " ")
+
+                j += 1 
+
+            i += 1 
+            print(" ")
+            
