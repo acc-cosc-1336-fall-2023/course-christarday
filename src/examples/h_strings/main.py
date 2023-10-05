@@ -13,4 +13,4 @@ print(lang)
 
 
 
-
+strings.use_repetition_operator(10)

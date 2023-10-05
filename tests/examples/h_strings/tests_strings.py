@@ -74,6 +74,28 @@ def test_rstrip_char_from_strings(self):
 
 
 
+def test_string_repetition_operator(self):
+    str1 = 'w' * 5 
+    self.assertEqual(str1, "wwwww")
+
+
+    def test_split_string(self):
+        str1 = "one two three four"
+        str_list = str1.split()
+        self.assertEqual(str_list[0], "one")
+        self.assertEqual(str_list[1], "two")
+        self.assertEqual(str_list[2], "three")
+        self.assertEqual(str_list[3], "four")
+
+   
+        
+
+
+
+
+
+
+
     
 
 
